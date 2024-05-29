@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="PL-pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zamówienia hurtowe</title>
+    <link rel="stylesheet" href="styl4.css">\
+    
+</head>
+<body>
+    <script src="script.js" defer></script>
+    <header>Sieci komputerowe</header>
+    <div class="left">
+        <h2>Aktualizacja i zamówienia materiałów</h2>
+        <p>Do wewnętrznego użytku firmy</p>
+        <img src="obraz.png" alt="siec komputerowa">
+    </div>
+    
+    <div class="right">
+        <table>
+            <tr>
+                
+                <td class="tbhead">Produkt</td>
+                <td class="tbhead">Jednostka</td>
+                <td class="tbhead">Dostępna ilość</td>
+                <td class="tbhead">Aktualizacja</td>
+                <td class="tbhead">Zamówienie</td>
+            </tr>
+            <tr>
+                <td class="tbelem">Skrętka U/UTP drut</td>
+                <td class="tbelem">metr</td>
+                <td class="quantity tbelem">20</td>
+                <td class="tbelem"><button class="update" onclick="update(0)">Aktualizuj</button></td>
+                <td class="tbelem"><button class="order" onclick="placeorder('Skrętka U/UTP drut')">Zamów</button></td>
+            </tr>
+            <tr>
+                <td class="tbelem">Skrętka U/UTP linka</td>
+                <td class="tbelem">metr</td>
+                <td class="quantity tbelem">2</td>
+                <td class="tbelem"><button class="update" onclick="update(1)">Aktualizuj</button></td>
+                <td class="tbelem"><button class="order" onclick="placeorder('Skrętka U/UTP linka')">Zamów</button></td>
+            </tr>
+            <tr>
+                <td class="tbelem">Wtyki 8P8C</td>
+                <td class="tbelem">sztuki</td>
+                <td class="quantity tbelem">10</td>
+                <td class="tbelem"><button class="update" onclick="update(2)">Aktualizuj</button></td>
+                <td class="tbelem"><button class="order" onclick="placeorder('Wtyki 8P8C')">Zamów</button></td>
+            </tr>
+            <tr>
+                <td class="tbelem">Moduły Keystone</td>
+                <td class="tbelem">sztuki</td>
+                <td class="quantity tbelem">30</td>
+                <td class="tbelem"><button class="update" onclick="update(3)">Aktualizuj</button></td>
+                <td class="tbelem"><button class="order" onclick="placeorder('Moduły Keystone')">Zamów</button></td>
+            </tr>
+        </table>
+    </div>
+    <footer>
+        <a href="http://sieci.pl/">Nasza strona internetowa</a>
+        <p>Strone przygotował : 21678351283</p>
+    </footer>
+    
+    
+    
+</body>
+</html>

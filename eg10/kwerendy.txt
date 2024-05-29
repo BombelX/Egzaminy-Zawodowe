@@ -1,0 +1,4 @@
+SELECT `haslo` FROM `uzytkownicy` WHERE `login` = 'Justyna';
+SELECT COUNT(`id`) FROM `dane` WHERE 1;
+SELECT `login`,`dane`.`rok_urodz`,`dane`.`rok_urodz`,`dane`.`przyjaciol`,`dane`.`hobby` FROM `uzytkownicy` INNER JOIN `dane` ON `uzytkownicy`.`id` = `dane`.`id` WHERE `login` = 'Justyna';
+ALTER TABLE `dane` ADD `stanowisko` TEXT NOT NULL AFTER `zdjecie`;

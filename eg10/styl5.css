@@ -1,0 +1,55 @@
+*{
+    font-family: Tahoma;
+}
+
+.left-header{
+    width: 70%;
+    height: 50px;
+    float: left;
+    text-align: center;
+    background-color: #003d33;
+    color: white;
+
+}
+.right-header{
+    width: 30%;
+    height: 50px;
+    background-color: #003d33;
+    color: white;
+    float: right;
+    text-align: center;
+
+}
+.left{
+    background-color: #26a69a;
+    height: 550px;
+    width: 30%;
+    float: left;
+}
+.right{
+    background-color: #26a69a;
+    height: 550px;
+    width: 70%;
+    float: right;
+}
+footer{
+    background-color:  #003d33;
+    color: white;
+
+}
+.but:hover{
+    background-color: #004c40;
+}
+.wizytowka{
+    width: 400px;
+    margin: 30px;
+    text-align: center;
+    border: 1px solid #003d33;
+}
+.wizytowka input{
+    background-color: #003d33;
+    color: white;
+    width: 100%;
+    height: 30px;
+    
+}
