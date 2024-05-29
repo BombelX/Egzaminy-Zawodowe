@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Style w JavaScript</title>
+    <link rel="stylesheet" href="styl6.css">
+</head>
+<body> 
+    <script src="script.js" defer></script>
+    <div class="left">
+        <h1>Konfigurator stylu</h1>
+        <p>Podaj kolor tła</p>
+        <button id="b1" onclick="changeBackgrounColor('Indigo')">Indigo</button><button id="b2" onclick="changeBackgrounColor('SteelBlue')" >SteelBlue</button><button id="b3" onclick="changeBackgrounColor('Olive')">Olive</button>
+        <p>Podaj kolor czcionki</p>
+        <select name="font-color" id="font-color" onchange="fontColor()">
+            <option value="White">White</option>
+            <option value="Tan">Tan</option>
+            <option value="Bisque">Bisque</option>
+            <option value="Plum">Plum</option>
+        </select>
+        <p>Podaj rozmiar czcionki w procentach, np. 200%</p>
+        <input onchange="fontSize()" type="text" name="font-size" id="font-size" value="100%">
+        <p>Czy rysunek ma miec ramkę?</p>
+        <input type="checkbox" name="isBorder" id="isBorder" onchange="border()" ><label for="">Rysuj Ramke</label>
+        <p>Jaki jest typ punktora listy?</p>
+        <input onchange="liststl('disc')" type="radio" name="punk" id="p1" checked> <label for="">dysk</label>
+        <input onchange="liststl('square')" type="radio" name="punk" id="p2"> <label for="">kwadrat</label>
+        <input onchange="liststl('circle')" type="radio" name="punk" id="p3"> <label for="">okrag</label>
+    </div>
+    <div id="rig" class="right">
+        <img id='gib' src="gibraltar.jpg" alt="półwysep Giblartar">
+        <ul id="lis">
+            <li>element1</li>
+            <li>element2</li>
+            <li>element3</li>
+        </ul>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+    </div>
+    <footer>
+        Autor:36721826223
+    </footer>
+</body>
+</html>

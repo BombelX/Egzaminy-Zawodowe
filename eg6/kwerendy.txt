@@ -1,0 +1,3 @@
+SELECT AVG(`rocznik`) FROM `samochody` WHERE `marka`='opel';
+SELECT `marka`,`klienci`.`imie` FROM `samochody` INNER JOIN `wypozyczenia` ON `samochody`.`id` = `wypozyczenia`.`samochody_id` INNER JOIN `klienci` ON `wypozyczenia`.`klienci_id` = `klienci`.`id` WHERE 1;
+ALTER TABLE `klasa` DROP `cena`;

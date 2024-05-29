@@ -1,0 +1,41 @@
+*{
+    font-family: Georgia;
+
+}
+.left{
+    float: left;
+    width: 30%;
+    height: 600px;
+    background-color: maroon;
+    color: white;
+
+}
+.right{
+    float: right;
+    width: 70%;
+    height: 600px;
+    background-color: maroon;
+    color: white;
+    overflow: scroll;
+}
+footer{
+    background-color: dimgray;
+    color: white;
+
+}
+p{
+    padding: 10px;
+}
+img{
+    padding: 10px;
+    border: 1px solid white;
+}
+#b1 {
+    background-color: indigo;
+}
+#b2 {
+    background-color: steelblue;
+}
+#b3 {
+    background-color: olive;
+}
