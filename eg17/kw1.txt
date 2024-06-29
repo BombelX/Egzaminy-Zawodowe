@@ -1,0 +1,1 @@
+SELECT `id`,`dataWyjazdu`,`cel`,`cena` FROM `wycieczki` WHERE `dostepna` = 1;

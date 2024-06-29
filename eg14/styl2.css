@@ -1,0 +1,44 @@
+*{
+    font-family: Garamond;
+}
+.h-left{
+    background-color: #00600f;
+    color: white;
+    text-align: center;
+    width: 75%;
+    float: left;
+    height: 90px;
+}
+.h-right{
+    background-color: #00600F;
+    color: white;
+    width: 25%;
+    float: right;
+    height: 90px;   
+}
+.maine{
+    background-color: #C8E6C9;
+    clear: both;
+    height: 600px;
+    overflow: scroll;
+}
+footer{
+    background-color: #00600F;
+    color: white;
+}
+h5{
+    background-color: #00600F;
+    color: white;
+    font-size: 200%;
+    text-align: center;
+    margin: 0px;
+}
+h2{
+    text-align: right;
+}
+.bloc{
+    width: 300px;
+    margin: 10px;
+    float: left;
+    border: 1px solid #00600F;
+}

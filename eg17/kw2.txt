@@ -1,0 +1,1 @@
+SELECT `nazwaPliku`,`podpis` FROM `zdjecia` ORDER BY `podpis` ASC;

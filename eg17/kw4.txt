@@ -1,0 +1,1 @@
+ALTER TABLE `wycieczki` ADD `dataPrzyjazdu` DATE NOT NULL AFTER `dataWyjazdu`;

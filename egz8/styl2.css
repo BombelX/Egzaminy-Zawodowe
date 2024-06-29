@@ -1,0 +1,47 @@
+header{
+    background-color: #08826A;
+    height: 60px;
+    font-family: Verdana;
+    text-align: center;
+}
+.left{
+    background-color: #1E9880;
+    height: 550px;
+    width: 30%;
+    float: left;
+}
+.right{
+    background-color: #1E9880;
+    height: 550px;
+    width: 70%;
+    text-align: center;
+    float: right;
+}
+p{
+    display: inline;
+}
+a{
+    color: white;
+}
+img{
+    margin: 20px;
+    padding: 15%;
+    border: 2px dotted #1E9880;
+}
+table{
+    margin: 20px;
+    border: 1px solid black ;
+    width: 80%;
+}
+tr:hover{
+    background-color: green;
+    color: white;
+}
+.tbhead{
+    background-color: #1E9880;
+    border: 1px solid  ;
+}
+td{
+    border: 1px solid;
+    text-align: right;
+}

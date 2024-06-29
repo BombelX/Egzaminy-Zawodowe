@@ -1,0 +1,1 @@
+SELECT `zdjecia`.`nazwaPliku`, `cel` FROM `wycieczki` INNER JOIN `zdjecia` ON `zdjecia`.`id` = `zdjecia_id` WHERE `cena`> 1000;

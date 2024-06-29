@@ -1,0 +1,1 @@
+SELECT `zwierzeta`.`id`,`gatunek`,`gromady`.`nazwa` FROM `zwierzeta` INNER JOIN `gromady` ON `Gromady_id` = `gromady`.`id` WHERE 1

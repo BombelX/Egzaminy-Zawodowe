@@ -1,0 +1,48 @@
+*{
+    font-family: Helvetica;
+}
+.left{
+    background-color: navy;
+    color: white;
+    height: 700px;
+    width: 25%;
+    float: left;
+
+}
+.r1{
+    width: 75%;
+    background-color: royalblue;
+    text-align: center;
+    height: 100px;
+    float: right;
+
+}
+.r2{
+    background-color: steelblue;
+    width: 75%;
+    height: 300px;
+    float: right;
+
+    }
+.r3{
+    background-color: RoyalBlue;
+    width: 75%;
+    height: 300px;
+    text-align: center;
+    float: right;
+}
+footer{
+    background-color: steelblue;
+    text-align: center;
+    padding: 20px;
+}
+h1{
+    letter-spacing: 5px;
+}
+form{
+    margin: 30px;
+    line-height: 3;
+}
+form:hover{
+    background-color: deepskyblue;
+}
